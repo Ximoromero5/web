@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel ducimus sed dicta
+            similique nam atque asperiores quas enim.</p>
+        <hr class="my-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel ducimus sed dicta.</p>
+        <p class="lead">
+            <a class="btn btn-primary" href="#" role="button" data-toggle="tooltip" data-placement="right"
+                title="Click here for more information!">Learn more</a>
+        </p>
+    </div>
+    <div class="container text-center">
+        <h1 class="mt-5">Who Were Are?</h1>
+        <hr class="little_line">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptates eius magni
+            libero facere dolorum
+            ab, nobis iusto corrupti numquam molestiae assumenda laudantium nesciunt? Dignissimos magnam doloribus
+            officiis asperiores tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum officiis ab
+            voluptatem reprehenderit quas dolor, alias, mollitia nobis voluptates beatae temporibus amet id possimus</p>
+        <hr class="m-5">
+    </div>
+
+    <div class="container">
+        <div class="card-deck">
+            <div class="card text-center">
+                <i class="fas fa-cog display-4 mt-5"></i>
+                <div class="card-body mt-3">
+                    <h5 class="card-title">Technology</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <i class="fas fa-fire display-4 mt-5"></i>
+                <div class="card-body mt-3">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <i class="fas fa-globe-americas display-4 mt-5"></i>
+                <div class="card-body mt-3">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f32dfec8d8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>

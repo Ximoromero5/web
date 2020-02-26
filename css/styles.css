@@ -1,0 +1,15 @@
+.little_line {
+  width: 50px;
+  border: none;
+  border-top: 4px solid green;
+  border-radius: 3px;
+}
+
+.imagen {
+  width: 70%;
+}
+
+.icono {
+  font-size: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
